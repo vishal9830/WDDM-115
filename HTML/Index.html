@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDDM 115 - Hello world</title>
-    <link rel="stylesheet" type="text/css" href="/WDDM-115/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
@@ -22,8 +22,10 @@
     </div>
     <p id="para">
         <!--This is a paragraph-->
-        My Name is Vishal <br> I am from India <br> I am a student at Humber <br>
+        My Name is Vishal saini <br> I am from India <br> I am a student at Humber <br>
     </p>
+
+
     <div class="img-pos">
         <!--This is an image-->
         <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" width="200" height="200">
@@ -35,22 +37,21 @@
     </div>
     <hr>
     <!--Horizontal line added-->
-    <div class=Form-pos>
-        <!--Added a table-->
-        <table border="1">
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-            </tr>
-            <tr>
-                <td>test Data</td>
-                <td>test Data</td>
-            </tr>
-            <tr>
-                <td>test Data</td>
-                <td>test Data</td>
-            </tr>
-        </table>
+    <!-- Contact Form changed-->
+    <div class="contact-form">
+        <h2>Want to Contact Me!?</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <div class=Form-pos>
         <!--Added a video-->
