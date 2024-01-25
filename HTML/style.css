@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(177, 214, 239);
+}
+
+h1 {
+    text-align: center;
+    background-color:  rgb(168, 166, 166);
+}
+
+p {
+    text-align: center;
+    font-size: 45px;
+}
+
+.img-pos,.btn-pos{
+    display: flex;
+    justify-content: center;
+}
+
+.navigator{
+    height: 100%;
+    display: flex;
+    position: fixed;
+}
+
+ul{
+    background-color: rgb(168, 166, 166);
+
+}
+
+.Form-pos{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

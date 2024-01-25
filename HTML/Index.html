@@ -21,6 +21,16 @@
         I am from India <br>
         I am a student at Humber <br>     
     </p>
+
+    <div class="Form-pos"> <!--Added a form-->
+        <form action="/submit_form" method="post" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     <div class="img-pos"> <!--This is an image-->
         <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" width="200" height="200">
     </div>
@@ -28,6 +38,31 @@
     <div class="btn-pos">  <!--This is a button-->
         <button type="button" onclick='document.getElementById("Change").innerHTML = "Text Changed"'>Click here to change</button><br>
     </div>
+    <hr><!--Horizontal line added-->
+    <div class=Form-pos><!--Added a table-->
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>test Data</td>
+                <td>test Data</td>
+            </tr>
+            <tr>
+                <td>test Data</td>
+                <td>test Data</td>
+            </tr>
+        </table>
+    </div>
+    <div class=Form-pos><!--Added a video-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <footer><!--Footer added-->
+        <p>Author: Vishal</p>
+        <p><a href="mailto:hege@example.com">n01667675@humber.ca</a></p>
+      </footer>
+    
 </body>
 </html>
 
