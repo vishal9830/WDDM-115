@@ -2,46 +2,44 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDDM 115 - Hello world</title>
+    <title>WDDM 115 - Hello World</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <h1>Hello Class</h1>
-    <div class="navigator">
-        <ul>
-            <!--This is navigation bar using unordered list-->
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">Profile</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </div>
-    <p id="para">
-        <!--This is a paragraph-->
-        My Name is Vishal saini <br> I am from India <br> I am a student at Humber <br>
-    </p>
+    <header>
 
+        <nav class="navigator">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="img-pos">
-        <!--This is an image-->
-        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" width="200" height="200">
-    </div>
-    <p id="Change"> Change text</p>
-    <div class="btn-pos">
-        <!--This is a button-->
-        <button type="button" onclick='document.getElementById("Change").innerHTML = "Text Changed"'>Click here to change</button><br>
-    </div>
+    <section class="main-content">
+        <h1>Hello Class</h1>
+        <p id="para">
+            My name is Vishal Saini <br> I am from India <br> I am a student at Humber <br>
+        </p>
 
+        <div class="img-pos">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" width="200" height="200" alt="Image">
+        </div>
 
+        <p id="Change"> Change text</p>
+        <div class="btn-pos">
+            <button type="button" onclick='document.getElementById("Change").innerHTML = "Text Changed"'>Click here to change</button><br>
+        </div>
+    </section>
 
     <hr>
-    <!--Horizontal line added-->
-    <!-- Contact Form changed-->
-    <div class="contact-form">
+
+    <section class="contact-form">
         <h2>Want to Contact Me!?</h2>
         <form>
             <label for="name">Name:</label>
@@ -55,17 +53,16 @@
 
             <input type="submit" value="Submit">
         </form>
-    </div>
-    <div class=Form-pos>
-        <!--Added a video-->
+    </section>
+
+    <section class="video-section">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
-    </div>
+    </section>
+
     <footer>
-        <!--Footer added-->
         <p>Author: Vishal</p>
         <p><a href="mailto:hege@example.com">n01667675@humber.ca</a></p>
     </footer>
-
 </body>
 
 </html>
