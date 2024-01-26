@@ -102,3 +102,21 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+
+/* Add styling for the LinkedIn button */
+
+.linkedin-btn {
+    background-color: #edf1f3;
+    /* LinkedIn color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.linkedin-btn:hover {
+    background-color: #e7eaeb;
+    /* Darker LinkedIn color on hover */
+}
