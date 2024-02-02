@@ -4,7 +4,7 @@ body {
 
 h1 {
     text-align: center;
-    background-color:  rgb(168, 166, 166);
+    background-color: rgb(168, 166, 166);
 }
 
 p {
@@ -12,19 +12,18 @@ p {
     font-size: 45px;
 }
 
-.img-pos,.btn-pos{
+.img-pos,
+.btn-pos {
     display: flex;
     justify-content: center;
 }
 
-.navigator{
+.navigator {
     height: 100%;
     display: flex;
     position: fixed;
 }
 
-ul{
+ul {
     background-color: rgb(168, 166, 166);
-
 }
-
