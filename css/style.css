@@ -2,6 +2,10 @@ body {
     background-color: rgb(177, 239, 184);
 }
 
+h2 {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     background-color: rgb(168, 166, 166);
